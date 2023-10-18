@@ -27,18 +27,37 @@ std::string Transliter::TransliteLetter(std::string letter)
 
 Transliter::Transliter()
 {
-    dict["з"] = "3";
-    dict["я"] = "9";
-    dict["г"] = "g";
-    dict["н"] = "H";
-    dict["е"] = "e";
-    dict["т"] = "T";
-    dict["р"] = "P";
-    dict["и"] = "u";
-    dict["в"] = "B";
-    dict["х"] = ")(";
-    dict["ж"] = ")|(";
-    dict["л"] = "Jl";
-    dict["ь"] = "b";
     dict["а"] = "A";
+    dict["б"] = "6";
+    dict["в"] = "B";
+    dict["г"] = "2";
+    dict["д"] = "g";
+    dict["е"] = "e";
+    dict["ё"] = "e";
+    dict["ж"] = ")|(";
+    dict["з"] = "3";
+    dict["и"] = "u";
+    dict["й"] = "u";
+    dict["к"] = "K";
+    dict["л"] = "Jl";
+    dict["м"] = "M";
+    dict["н"] = "H";
+    dict["о"] = "O";
+    dict["п"] = "TT";
+    dict["р"] = "P";
+    dict["с"] = "c";
+    dict["т"] = "T";
+    dict["у"] = "Y";
+    dict["ф"] = "ф";
+    dict["х"] = "x";
+    dict["ц"] = "";
+    dict["ч"] = "4";
+    dict["ш"] = "w";
+    dict["щ"] = "w";
+    dict["ъ"] = "b";
+    dict["ы"] = "bl";
+    dict["ь"] = "b";
+    dict["э"] = "э";
+    dict["ю"] = "ю";
+    dict["я"] = "9";
 }
