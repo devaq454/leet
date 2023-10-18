@@ -11,6 +11,7 @@ private:
 
 public:
     std::string TransliteLetter(std::string letter);
+    std::string TransliteMessage(std::string message);
     Transliter();
 };
 

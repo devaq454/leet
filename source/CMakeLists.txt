@@ -1,7 +1,7 @@
 add_executable(program
                main.cpp
-               strToLowerUpper.cpp
-               strToLowerUpper.h
+               strToLower.cpp
+               strToLower.h
                transliter.cpp
                transliter.h
                )

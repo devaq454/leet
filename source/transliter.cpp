@@ -1,7 +1,7 @@
 #include <string>
 #include <map>
 
-#include "strToLowerUpper.h"
+#include "strToLower.h"
 #include "transliter.h"
 
 std::string Transliter::TransliteLetter(std::string letter)
@@ -15,9 +15,10 @@ std::string Transliter::TransliteLetter(std::string letter)
     }
 
     // if upper in dict
-    else if (dict.count(StrToLower(letter)))
+    std::string lowerLetter = StrToLower(letter);
+    if (dict.count(lowerLetter))
     {
-        return StrToUpper(dict.at(StrToLower(letter)));
+        return dict.at(lowerLetter);
     }
     
     // if not cyrrilic
