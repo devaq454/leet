@@ -1,12 +1,22 @@
 #include <iostream>
-
+#include <locale>
 #include "transliter.h"
 
 int main()
 {
+    // setting for Russian letters in console
     setlocale(LC_ALL, "Russian");
+    std::locale ru{"ru_RU.UTF-8"};
+    std::cout.imbue(ru);
+    std::wcout.imbue(ru);
+    std::cin.imbue(ru);
+    std::wcin.imbue(ru);
+    std::locale::global(ru);
+
+
     Transliter t;
-    std::wstring message = L"Вступая в зрелый возраст, юная дева начинает исследовать области жизни, до того ей недоступные, которые в сказках символизируются проникновением в таинственные башни и поисками укрытой там комнаты. Девушка взбирается на вершину башни, ступая по винтовой лестнице – лестницы в снах представляют собою символы эротических переживаний. Запретная комната, этот маленький, замкнутый на замок покой, символизирует вагину, а поворот ключа в замке – сексуальный акт";
+    std::wstring message;
+    std::getline(std::wcin, message);
     std::wcout << t.TransliteMessage(message) << std::endl;
     return 0;
 }
