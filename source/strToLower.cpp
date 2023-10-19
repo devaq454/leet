@@ -1,9 +1,13 @@
+#include <locale>
 #include <string>
-#include <algorithm>
-/* #include <cctype> */
 
-std::string StrToLower(std::string s)
+std::wstring StrToLower(std::wstring s)
 {
-    char c = std::toupper(s.at(0));
-    return std::to_string(c);
+    std::locale ru{"ru_RU.UTF-8"};
+
+    std::locale::global(ru);
+    auto let = std::towlower(s[0]);
+    return std::wstring(1, let);
+    /* return std::towlower(let); */
+    /* return lower; */
 }

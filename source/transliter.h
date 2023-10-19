@@ -7,11 +7,11 @@
 class Transliter
 {
 private:
-    std::map<std::string, std::string> dict;
+    std::map<std::wstring, std::wstring> dict;
 
 public:
-    std::string TransliteLetter(std::string letter);
-    std::string TransliteMessage(std::string message);
+    std::wstring TransliteLetter(std::wstring letter);
+    std::wstring TransliteMessage(std::wstring message);
     Transliter();
 };
 

@@ -3,6 +3,6 @@
 
 #include <string>
 
-std::string StrToLower(std::string s);
+std::wstring StrToLower(std::wstring s);
 
 #endif  // _STR_TO_LOWER_UPPER
