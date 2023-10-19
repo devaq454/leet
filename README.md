@@ -1,5 +1,4 @@
-# translit-from-russian-to-russian
-Translit text from russian letters to russian letters on latin.
+# leet russian letters into latin
 For example letters to latin translit:
 "г" -> "r"; 
 "я" -> "9"; 
