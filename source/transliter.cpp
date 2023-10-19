@@ -34,12 +34,12 @@ Transliter::Transliter()
     dict[L"д"] = L"g";
     dict[L"е"] = L"e";
     dict[L"ё"] = L"e";
-    dict[L"ж"] = L")|(";
+    dict[L"ж"] = L"}|{";
     dict[L"з"] = L"3";
     dict[L"и"] = L"u";
     dict[L"й"] = L"u";
     dict[L"к"] = L"K";
-    dict[L"л"] = L"Jl";
+    dict[L"л"] = L"J|";
     dict[L"м"] = L"M";
     dict[L"н"] = L"H";
     dict[L"о"] = L"o";
@@ -48,17 +48,17 @@ Transliter::Transliter()
     dict[L"с"] = L"c";
     dict[L"т"] = L"T";
     dict[L"у"] = L"y";
-    dict[L"ф"] = L"_";
+    dict[L"ф"] = L"qp";
     dict[L"х"] = L"x";
-    dict[L"ц"] = L"_";
+    dict[L"ц"] = L"LL,";
     dict[L"ч"] = L"4";
     dict[L"ш"] = L"w";
-    dict[L"щ"] = L"w";
-    dict[L"ъ"] = L"b";
+    dict[L"щ"] = L"w,";
+    dict[L"ъ"] = L"'b";
     dict[L"ы"] = L"bl";
     dict[L"ь"] = L"b";
     dict[L"э"] = L"e";
-    dict[L"ю"] = L"_";
+    dict[L"ю"] = L"IO";
     dict[L"я"] = L"9";
 }
 
