@@ -1,9 +1,9 @@
 #include <string>
 #include <map>
 #include <algorithm>
+#include <iostream>
 
 #include "transliter.h"
-#include <iostream>
 
 std::wstring Transliter::TransliteLetter(std::wstring letter)
 {
