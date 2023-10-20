@@ -1,3 +1,0 @@
-/home/vlad/Документы/projects/leet/build/CMakeFiles/program.dir
-/home/vlad/Документы/projects/leet/build/CMakeFiles/edit_cache.dir
-/home/vlad/Документы/projects/leet/build/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,5 @@
 #include <string>
 #include <map>
-#include <algorithm>
 #include <iostream>
 
 #include "transliter.h"
