@@ -27,7 +27,7 @@ Transliter::Transliter()
     dict[L"ж"] = L"]|[";    dict[L"Ж"] = L"]|[";
     dict[L"з"] = L"3";      dict[L"З"] = L"3";
     dict[L"и"] = L"u";      dict[L"И"] = L"|/|";
-    dict[L"й"] = L"u";      dict[L"Й"] = L"|/|*";
+    dict[L"й"] = L"u";      dict[L"Й"] = L"|/|";
     dict[L"к"] = L"k";      dict[L"К"] = L"K";
     dict[L"л"] = L"JI";     dict[L"Л"] = L"JI";
     dict[L"м"] = L"M";      dict[L"М"] = L"M";
@@ -36,9 +36,9 @@ Transliter::Transliter()
     dict[L"п"] = L"n";      dict[L"П"] = L"TT";
     dict[L"р"] = L"p";      dict[L"Р"] = L"P";
     dict[L"с"] = L"c";      dict[L"С"] = L"C";
-    dict[L"т"] = L"T";      dict[L"Т"] = L"T";
+    dict[L"т"] = L"m";      dict[L"Т"] = L"T";
     dict[L"у"] = L"y";      dict[L"У"] = L"Y";
-    dict[L"ф"] = L"qp";     dict[L"Ф"] = L"qp";
+    dict[L"ф"] = L"qp";     dict[L"Ф"] = L"<|>";
     dict[L"х"] = L"x";      dict[L"Х"] = L"X";
     dict[L"ц"] = L"LL,";    dict[L"Ц"] = L"LL,";
     dict[L"ч"] = L"4";      dict[L"Ч"] = L"4";
@@ -47,7 +47,7 @@ Transliter::Transliter()
     dict[L"ъ"] = L"'b";     dict[L"Ъ"] = L"'b";
     dict[L"ы"] = L"bl";     dict[L"Ы"] = L"bl";
     dict[L"ь"] = L"b";      dict[L"Ь"] = L"b";
-    dict[L"э"] = L"e";      dict[L"Э"] = L"E";
+    dict[L"э"] = L"-)";      dict[L"Э"] = L"-_";
     dict[L"ю"] = L"IO";     dict[L"Ю"] = L"IO";
     dict[L"я"] = L"9";      dict[L"Я"] = L"9I";
 }
