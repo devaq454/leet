@@ -47,7 +47,7 @@ Transliter::Transliter()
     dict[L"ъ"] = L"'b";     dict[L"Ъ"] = L"'b";
     dict[L"ы"] = L"bl";     dict[L"Ы"] = L"bl";
     dict[L"ь"] = L"b";      dict[L"Ь"] = L"b";
-    dict[L"э"] = L"-)";      dict[L"Э"] = L"-_";
+    dict[L"э"] = L"-)";     dict[L"Э"] = L"-)";
     dict[L"ю"] = L"IO";     dict[L"Ю"] = L"IO";
     dict[L"я"] = L"9";      dict[L"Я"] = L"9I";
 }
